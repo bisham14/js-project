@@ -1,0 +1,78 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+background-image: url(robert-clark-zF2GkaOJDEE-unsplash.jpg);
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+
+}
+.box{
+background-image: url(oi.webp);
+ background-repeat:  no-repeat;
+    background-position: center;
+        background-size:cover;
+      box-shadow: 50px 40px 40px rgb(237, 161, 161); 
+
+
+
+
+
+    text-align: center;
+    border: 3px dotted black;
+    height: 70%;
+    width: 50%;
+    margin: 400px auto;
+   padding: 90px;
+    font-size: 80px;
+     font-weight: 800;
+     border-radius: 400px;
+
+}
+
+
+.box h1{
+color: blanchedalmond;
+      margin-bottom: 90px;
+
+}
+.box h2{
+    color: rgb(242, 237, 237);
+    font-size: 400px;
+      margin-bottom: 400px;
+
+}
+button{
+    height:200px;
+    width: 900px;
+    background-color: rgb(91, 91, 126);
+    border-radius: 200px;
+    color: azure;
+     margin-bottom: 200px
+
+
+}
+button:hover{
+ box-shadow: 30px 30px 50px rgb(243, 229, 229); 
+}
+
+#increment-btw{
+ font-size: 100px;
+ font-weight: 900;
+ margin-right: 500px;
+}
+#save-btw{
+ font-size: 100px;
+ font-weight: 900;
+
+}
+p{
+    color: black;
+    font-size: 130px;
+    font-weight: 900;
+}
