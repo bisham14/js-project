@@ -1,20 +1,5 @@
- let countInc= document.getElementById("doWork");
- let saveEl= document.getElementById("save-el");
+const kelvin = 283;
+const celsius = kelvin - 273;
+const fahrenheit = Math.floor(celsius * (9/5) + 32);
 
-let count=0;
-
-function increment(){
-    count +=1;
-     countInc.textContent=count;
-}
-
-function save(){
-saveEl.textContent += count+ " - " ;
-    count=0;
-    countInc.textContent =count;
-
-}
-
-
-
-
+console.log(`${kelvin} K = ${celsius} °C = ${fahrenheit} °F`);
