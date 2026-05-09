@@ -50,3 +50,9 @@ const hasHabitat = (animal) => {
 console.log(hasHabitat(tiger));
 console.log(hasHabitat(elephant));
 
+const getProperty= (animal,propertyName) =>{
+  return animal[propertyName];
+}
+console.log(getProperty(tiger, "species") );
+console.log(getProperty(elephant, "age"));
+
