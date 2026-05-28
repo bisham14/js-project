@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="leftContainer">
+         <input class="form" id="username" type="text" placeholder="Username">
+         <input class="form" id="email" type="text" placeholder="@gmail__(optional) ">
+      <textarea class ="form" id="review" placeholder="Write a review"></textarea>
+   
+     <!--  Star Selector -->
+        <div class="star-selector">
+     <span class="star" data-val="1">☆</span>
+    <span class="star" data-val="2">☆</span>
+    <span class="star" data-val="3">☆</span>
+    <span class="star" data-val="4">☆</span>
+    <span class="star" data-val="5">☆</span>
+        </div>
+
+         <button id="button" onclick="submitReview()">Submit</button>
+
+
+    </div>
+
+   
+    <!-- right container -->
+
+     <div class="rightContainer">
+      <h2>All Reviews</h2>
+      <hr style="border-width: 8px;"> 
+      
+        <div id="reviews-list">
+            <h1 style="text-align: center;font-size: 3rem;">No Reviews Yet.</h1>
+        </div>
+
+     </div>
+
+       
+
+ <script src ="script.js"></script>
+   
+</body>
+</html>
