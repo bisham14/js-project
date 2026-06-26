@@ -1,0 +1,59 @@
+
+body{
+    background-color: rgb(244, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: 0.4s;
+}
+.input{
+    visibility: hidden;
+    
+}
+
+.lable{
+    height: 200px;
+    width: 500px;
+    background-color: rgb(128, 131, 131);
+    position: absolute;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.lable .circle{
+    height: 160px;
+    width: 160px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top:  20px;
+    left: 20px;
+    animation: buttonOff 0.4s linear forwards;
+}
+
+
+.input:checked + .lable{
+    background-color: rgb(218, 150, 235);
+}
+.input:checked + .lable .circle{
+     animation: buttonOnn 0.4s linear forwards;
+     background-color: black;
+}
+
+
+@keyframes buttonOnn {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+       transform: translateX(300px);
+    }
+}
+@keyframes buttonOff {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+       transform: translateX(0);
+    }
+}
