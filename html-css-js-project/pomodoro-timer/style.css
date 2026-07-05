@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+
+}
+.container{
+text-align: center;
+padding: 340px; 
+font-size: 100px;   
+letter-spacing: 9px;
+}
+.title{
+    color: rgb(227, 79, 244);
+    text-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+
+}
+.timer{
+    font-size: 250px;
+    font-weight: 700;
+}
+button{
+    height: 300px;
+    width: 500px;
+    font-size: 120px;
+    margin: 100px;
+    border-radius: 40px;
+    font-weight: 700;
+    color: aliceblue;
+    text-transform: uppercase;
+    transition: hover 0.2s ease-in-out,
+    scale 0.3s linear;
+}
+button:hover{
+    opacity: 0.6;
+    scale: 1.2;
+}
+#start{
+    background-color: rgb(80, 249, 24);
+}
+#stop{
+    background-color: red;
+}
+#reset{
+    background-color: rgb(110, 106, 106);
+}
